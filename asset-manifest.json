@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/todo-app-react-by-baner/static/css/main.3f6a59ff.css",
-    "main.js": "/todo-app-react-by-baner/static/js/main.761196d1.js",
+    "main.js": "/todo-app-react-by-baner/static/js/main.567e1f7a.js",
     "static/js/453.03d40b11.chunk.js": "/todo-app-react-by-baner/static/js/453.03d40b11.chunk.js",
     "index.html": "/todo-app-react-by-baner/index.html",
     "main.3f6a59ff.css.map": "/todo-app-react-by-baner/static/css/main.3f6a59ff.css.map",
-    "main.761196d1.js.map": "/todo-app-react-by-baner/static/js/main.761196d1.js.map",
+    "main.567e1f7a.js.map": "/todo-app-react-by-baner/static/js/main.567e1f7a.js.map",
     "453.03d40b11.chunk.js.map": "/todo-app-react-by-baner/static/js/453.03d40b11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f6a59ff.css",
-    "static/js/main.761196d1.js"
+    "static/js/main.567e1f7a.js"
   ]
 }
