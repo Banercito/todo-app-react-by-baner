@@ -1,0 +1,146 @@
+.todo-app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.add-todo input {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.add-todo input:focus {
+  border-color: #3498db;
+}
+
+.add-todo button {
+  padding: 12px 25px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.add-todo button:hover {
+  background: #219a52;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: white;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.todo-item:hover {
+  transform: translateY(-2px);
+}
+
+.todo-item.completed {
+  opacity: 0.7;
+  background: #ecf0f1;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 15px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.view span {
+  flex: 1;
+  font-size: 16px;
+  color: #2c3e50;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button, .editing button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.actions button:hover, .editing button:hover {
+  background: #ecf0f1;
+}
+
+.editing {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  align-items: center;
+}
+
+.editing input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  outline: none;
+}
+
+.empty-state {
+  text-align: center;
+  color: #7f8c8d;
+  font-style: italic;
+  padding: 40px 20px;
+}
