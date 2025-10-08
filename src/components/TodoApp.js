@@ -41,6 +41,11 @@ const TodoApp = () => {
         onEdit={editTodo}
         onToggleComplete={toggleComplete}
       />
+      
+      {/* Footer con tu autoría - AGREGADO */}
+      <footer className="app-footer">
+        <p><strong>© Baner Murga {new Date().getFullYear()}. Todos los derechos reservados.</strong></p>
+      </footer>
     </div>
   );
 };
